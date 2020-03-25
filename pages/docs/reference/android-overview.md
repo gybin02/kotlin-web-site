@@ -7,46 +7,19 @@ title: "Kotlin for Android"
 
 # Using Kotlin for Android Development
 
-Kotlin is a great fit for developing Android applications, bringing all of the advantages of a modern language
-to the Android platform without introducing any new restrictions:
+Kotlin is the preferred language for developing Android applications since 2019. Choosing it as the language for 
+Android development, you can benefit from:
 
-  * **Compatibility**: Kotlin is fully compatible with JDK 6, ensuring that Kotlin applications can run on older
-    Android devices with no issues. The Kotlin tooling is fully supported in Android Studio and compatible with the Android build system.
-  * **Performance**: A Kotlin application runs as fast as an equivalent Java one, thanks to very similar bytecode structure.
-    With Kotlin's support for inline functions, code using lambdas often runs even faster than the same code written in Java.
-  * **Interoperability**: Kotlin is 100% interoperable with Java, allowing to use all existing Android libraries
-    in a Kotlin application. This includes annotation processing, so databinding and Dagger work too.
-  * **Footprint**: Kotlin has a very compact runtime library, which can be further reduced through the use of ProGuard.
-    In a [real application](https://blog.gouline.net/kotlin-production-tales-62b56057dc8a), the Kotlin runtime adds
-    only a few hundred methods and less than 100K to the size of the .apk file.
-  * **Compilation Time**: Kotlin supports efficient incremental compilation, so while there's some additional overhead
-    for clean builds, [incremental builds are usually as fast or faster than with Java](https://medium.com/keepsafe-engineering/kotlin-vs-java-compilation-speed-e6c174b39b5d).
-  * **Learning Curve**: For a Java developer, getting started with Kotlin is very easy. The automated Java to Kotlin converter included in the Kotlin plugin
-    helps with the first steps. [Kotlin Koans](/docs/tutorials/koans.html) offer a guide through the key features of the language with a series of interactive exercises.
+* **Less code combined with great readability**. Spend less time on writing your code and understanding code of others.
+* **Mature language & environment**. Kotlin has been developed since 2011 and it's seemlessly integrated in Android Studio.
+* **Interoperability with Java**. You can use Kotlin along with Java in your applications without a need to 
+migrate all your code to Kotlin.
+* **Support of multiplatform development**. You can use Kotlin for developing not only Android but also iOS, backend, and web applications. 
+Enjoy benefits of sharing the common code among the platforms.
+* **Code safety**. Less code and better readability lead to less errors, which are easily detected by the Kotlin compiler. 
+* **Easy learning**. Kotlin is very easy to learn, especially for Java developers.
+* **Big community**. Kotlin has great support and much contribution from the community growing all over the world. 
 
-## Kotlin for Android Case Studies
+Many startups and Fortune 500 companies have already developed Android applications using Kotlin - see the list at [the Google website for Kotlin developers](https://developer.android.com/kotlin).
 
-Kotlin has been successfully adopted by major companies, and a few of them have shared their experiences:
-
-  * Pinterest has successfully [introduced Kotlin into their application](https://www.youtube.com/watch?v=mDpnc45WwlI), used by 150M people every month.
-  * Basecamp's Android app is [100% Kotlin code](https://m.signalvnoise.com/how-we-made-basecamp-3s-android-app-100-kotlin-35e4e1c0ef12), and they report a huge
-    difference in programmer happiness and great improvements in work quality and speed.
-  * Keepsafe's App Lock app has also been [converted to 100% Kotlin](https://medium.com/keepsafe-engineering/lessons-from-converting-an-app-to-100-kotlin-68984a05dcb6),
-    leading to a 30% decrease in source line count and 10% decrease in method count.
-
-## Kotlin Android Extensions
-
-[Kotlin Android Extensions](/docs/tutorials/android-plugin.html) is a compiler extension
-that allows you to get rid of `findViewById()` calls in your code and to replace them with synthetic compiler-generated
-properties.
-
-## Next Steps
-
-* Download and install [Android Studio](https://developer.android.com/studio/index.html) which includes Kotlin support out of the box.
-* Follow the [Getting Started with Android and Kotlin](/docs/tutorials/kotlin-android.html) tutorial
-to create your first Kotlin application.
-* For a more in-depth introduction, check out the [reference documentation](/docs/reference/index.html) on this site and
-[Kotlin Koans](/docs/tutorials/koans.html).
-* Another great resource is [Kotlin for Android Developers](https://leanpub.com/kotlin-for-android-developers),
-a book that guides you step by step through the process of creating a real Android application in Kotlin.
- * Check out Google's [sample projects written in Kotlin](https://developer.android.com/samples/index.html?language=kotlin).
+If you want to start using Kotlin for Android development, read [how Google recommends that you get started with Kotlin on Android](https://developer.android.com/kotlin/get-started). 
